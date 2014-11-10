@@ -1,0 +1,90 @@
+    <!DOCTYPE html>
+    <html>
+     <head><meta charset="utf-8">
+        <title>Responsive travel form</title>
+        <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" /> -->
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+     </head>
+        <div class="wrapper">
+            <header class="masthead">
+        	<h1>Edalex Travel</h1>
+            </header>
+             <section class="main">
+        	<h2>Travel Site Booking Form</h2>
+            <p>Please follow the instructions to fill out this form. </br> <b>Note:</b>To be filled by couples without children ONLY! </p>
+<form name="travelForm" id="travelForm" action="#" method="post" enctype="application/x-www-form-urlencoded">
+            	<div class="formbox">
+                	<label for ="departure-city">Departure city:</label>
+                    <select name="city" id="city" class="med">
+                    	<option value="1">Ottawa</option>
+                        <option value="2">Edmonton</option>
+                        <option value="3">Victoria</option>
+                        <option value="4">Montreal</option>
+                        <option value="5">Toronto</option>
+                        <option value="6">Winnipeg</option>
+                        <option value="7">Fredericton</option>
+                        <option value="8">St. John's</option>
+                        <option value="9">Halifax</option>
+                        <option value="10">Charlottetown</option>
+                        <option value="11">Quebec City</option>
+                        <option value="12">Regina</option>
+                        <option value="13">Yellowknife</option>
+                        <option value="14">Iqaluit</option>
+                        <option value="15">Whitehorse</option>
+                        <option value="16">Select</option>
+                    </select>
+                </div>
+                <div class="formbox">
+                	<label for="destination-city">Destination city:</label>
+                    <select name="city" id="dcity" class="med">
+                    	<option value="1">Ottawa</option>
+                        <option value="2">Edmonton</option>
+                        <option value="3">Vuctoria</option>
+                        <option value="4">Montreal</option>
+                        <option value="5">Toronto</option>
+                        <option value="6">Winnipeg</option>
+                        <option value="7">Fredericton</option>
+                        <option value="8">St. John's</option>
+                        <option value="9">Halifax</option>
+                        <option value="10">Charlottetown</option>
+                        <option value="11">Quebec City</option>
+                        <option value="12">Regina</option>
+                        <option value="13">Yellowknife</option>
+                        <option value="14">Iqaluit</option>
+                        <option value="15">Whitehorse</option>
+                        <option value="16">Select</option>
+                    </select>
+                </div>
+                <div class="formbox">
+                	<label for="departure-date" id = "">Date of departure:</label>
+                    <input type="date" name="d-date" id="d-date" autocomplete="off" required class="med"/>
+                </div>
+                <div class="formbox">
+                	<label for="return-date">Date of return:</label>
+                   <input type="date" name="r-date" id="r-date" autocomplete="off" required placeholder="" class="med" />
+                </div>
+                <div class="formbox">
+                	<label for="number-of-adults">Number of adults:</label>
+                    <input type="number" name="quantity" min="1" max="10">
+                </div>
+    
+                 <div class="formbox" id = "slider-range">
+                	<label for="price-per-person">Price per person:</label>
+                   <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                     
+                </div>
+                <div class="formbox buttons">
+                    <input type="reset" name="btnReset" id="bReset" value="Reset" class = "btn" />
+                	<input type="submit" name="btnSubmit" id="bSubmit" value="Search for deals" class="btn" />
+                </div>
+            </form>
+            </section>
+            <footer class="footer">
+                <p>&copy; Chicken Stuff Inc.</p>
+            </footer>
+        </div>
+    </html>
