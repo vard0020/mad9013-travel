@@ -11,7 +11,7 @@ h1, h2, h3, h4{
 }
 h1{
 	font-size: 3.5rem;	
-	color:#FC3;
+	color:#CC6646;
 }
 h2{
 	font-size: 2.4rem;
@@ -35,15 +35,16 @@ Layout
 	width:1180px;
 	margin:0 auto;
 	border:1px solid #333;
+    background:#D1C1BC;
 }
 .masthead{
-	background: #76BAFF;
+	background: #101C4C;
 	color:#fff;
 	padding-bottom: 20px;
 	border-bottom: 6px solid #333;
 }
 .footer{
-	background: #76BAFF;
+	background: #101C4C;
 	color:#fff;
 	padding-top: 20px;
 	border-top: 6px solid #333;
@@ -72,42 +73,41 @@ label{
 	margin: 0 0 0 3.1rem;
 	font-size: 1.2rem;
 	padding: 0.6rem 0 0.2rem 0; /* more space on the top than the bottom */
-	color: #666;
 }
 label[for=departure-city]{
-    background-image: url('/img/application_add.png');
+    background-image: url('../img/application_add.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
     padding-top: 3px;
 }
 
 label[for=destination-city]{
-    background-image: url('/img/application_add.png');
+    background-image: url('../img/application_add.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
     padding-top: 3px;
 }
 
 label[for=departure-date]{
-    background-image: url('/img/calendar_add.png');
+    background-image: url('../img/calendar_add.png');
     background-repeat: no-repeat;  
     background-position: 0px 5px;
     padding-top: 3px;
 }
 label[for=return-date]{
-    background-image: url('/img/calendar_add.png');
+    background-image: url('../img/calendar_add.png');
     background-repeat: no-repeat;
     background-position: 0px 5px;
     padding-top: 3px;
 }
 label[for=number-of-adults]{
-    background-image: url('/img/group_add.png');
+    background-image: url('../img/group_add.png');
     background-repeat: no-repeat;
     background-position: 0px 5px;
     padding-top: 3px;
 }
 label[for=price-per-person]{
-    background-image: url('/img/money_dollar.png');
+    background-image: url('../img/money_dollar.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
     padding-top: 3px;
@@ -165,8 +165,7 @@ input, select, textarea{
     width:40%;}
     
      label {float:left;
-     width:30%;
-     font-size:1rem;}
+     width:30%;}
     
     label[for=return-date]{
     background-position: 0px 10px;
