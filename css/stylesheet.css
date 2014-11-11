@@ -75,39 +75,39 @@ label{
 	color: #666;
 }
 label[for=departure-city]{
-    background-image: url('/img/add.png');
+    background-image: url('/img/application_add.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
     padding-top: 3px;
 }
 
 label[for=destination-city]{
-    background-image: url('/img/add.png');
+    background-image: url('/img/application_add.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
     padding-top: 3px;
 }
 
 label[for=departure-date]{
-    background-image: url('/img/accept.png');
+    background-image: url('/img/calendar_add.png');
     background-repeat: no-repeat;  
     background-position: 0px 5px;
     padding-top: 3px;
 }
 label[for=return-date]{
-    background-image: url('/img/accept.png');
+    background-image: url('/img/calendar_add.png');
     background-repeat: no-repeat;
     background-position: 0px 5px;
     padding-top: 3px;
 }
 label[for=number-of-adults]{
-    background-image: url('/img/accept.png');
+    background-image: url('/img/group_add.png');
     background-repeat: no-repeat;
     background-position: 0px 5px;
     padding-top: 3px;
 }
 label[for=price-per-person]{
-    background-image: url('/img/add.png');
+    background-image: url('/img/money_dollar.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
     padding-top: 3px;
@@ -127,7 +127,7 @@ input, select, textarea{
 	width: 4rem;
 }
 .med{
-	width: 15rem;
+	width: 10rem;
 }
 .wide{
 	width: 40rem;
@@ -144,16 +144,19 @@ input, select, textarea{
 ********************************/
 @media screen and (max-width: 500px)
 {
-    h1{2rem;}
-    h2{1rem;}
+   p {font-size:0.9rem;}
+    h1 {font-size:3rem;}
+    h2 {font-size:1.7rem;}
 
 }
 
 @media screen and (min-width: 501px) and (max-width: 780px)
 {
-    label {float:left;
-    width:13rem;
-    }
+    label {
+        float:left;
+        width:13rem;}
+    p {font-size:1rem;}
+    h2 {font-size:2rem;}
 }
 
 @media screen and (min-width: 781px)
@@ -162,7 +165,14 @@ input, select, textarea{
     width:40%;}
     
      label {float:left;
-     width:30%;}
+     width:30%;
+     font-size:1rem;}
+    
+    label[for=return-date]{
+    background-position: 0px 10px;
+        padding-top: 10px;
+}
+    
     
 
 }
