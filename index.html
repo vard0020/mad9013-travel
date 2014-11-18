@@ -2,12 +2,12 @@
     <html>
      <head><meta charset="utf-8">
         <title>Responsive travel form</title>
-        <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" /> -->
-        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700"/>
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="css/stylesheet.css" />
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+         <script src="js/script.js"></script>
      </head>
         <div class="wrapper">
             <header class="masthead">
@@ -72,10 +72,10 @@
                     <input type="number" name="quantity" min="1" max="10">
                 </div>
     
-                 <div class="formbox" id = "slider-range">
-                	<label for="price-per-person">Max price per person:</label>
-                   <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                     
+                 <div class="formbox">
+                	<label for="amount">Max price per person:</label>
+                   <input type="text" id="amount" readonly style="border:0; color:#CC6646; font-weight:bold;">
+                     <div id = "slider-range-max"></div>  
                 </div>
                 <div class="formbox buttons">
                 	<input type="submit" name="btnSubmit" id="bSubmit" value="Search for deals" class="btn" />

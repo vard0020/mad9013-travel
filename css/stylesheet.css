@@ -27,6 +27,7 @@ p, li{
 	padding: 0.8rem 3rem;
 }
 
+
 /******************
 Layout
 *******************/
@@ -45,7 +46,7 @@ Layout
 }
 .footer{
 	background: #101C4C;
-	color:#fff;
+	color:#CC6646;
 	padding-top: 20px;
 	border-top: 6px solid #333;
     clear:both;
@@ -106,7 +107,7 @@ label[for=number-of-adults]{
     background-position: 0px 5px;
     padding-top: 3px;
 }
-label[for=price-per-person]{
+label[for=amount]{
     background-image: url('../img/money_dollar.png');
     background-repeat: no-repeat; 
     background-position: 0px 5px;
@@ -139,14 +140,23 @@ input, select, textarea{
 	width: 100%;
 	padding:0 0 0 3rem;
 }
+
+
+#slider-range-max {
+    width:12rem;
+    margin-top:20px;
+    margin-left: 177px;
+    }
 /*********************************
      Media queries for browser sizes
 ********************************/
 @media screen and (max-width: 500px)
 {
-   p {font-size:0.9rem;}
+   p {font-size:1rem;}
     h1 {font-size:3rem;}
     h2 {font-size:1.7rem;}
+    #slider-range-max{
+    margin-left: 53px;}
 
 }
 
@@ -157,6 +167,8 @@ input, select, textarea{
         width:13rem;}
     p {font-size:1rem;}
     h2 {font-size:2rem;}
+    #slider-range-max{
+    margin-left: 260px;}
 }
 
 @media screen and (min-width: 781px)
@@ -169,11 +181,9 @@ input, select, textarea{
     
     label[for=return-date]{
     background-position: 0px 10px;
-        padding-top: 10px;
+    padding-top: 10px;
 }
     
-    
-
 }
     
     
